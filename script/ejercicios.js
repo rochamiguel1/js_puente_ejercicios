@@ -102,7 +102,7 @@ else if (texto.includes("sed","salud","caos"))
 else {
    console.log("dfhgs");
 } */
- 
+
 /* let texto = prompt("texto");
 switch (texto) {
     case "mesa":
@@ -171,20 +171,17 @@ let nuevo = str.replaceAll("Capitalize", "capitalizE")
 }
 */
 
-let str = prompt("Capitalize");
+/* let str = prompt("Capitalize");
 
 let first = str.toLowerCase(0);
 let last = str.toUpperCase(9);
+let middle = str(1, 8);
+
+console.log(first, middle);
 
 
+ */
 
-
-
-
-
- 
-
- 
 /*  ejercicio 10 */
 
 /* let correo = prompt("ingresa tu correo")
@@ -203,8 +200,6 @@ else {
 /* ejercicio 11*/
 
 /* ejercicio 12*/
-
-/* ejercicio 13 */
 /* let galletas = 25;
 function buclefor(num) {
     for (let i = 1; i < (galletas % 3) + (1 * 2); i--);
@@ -226,6 +221,36 @@ function buclefor(num) {
 
 /* ejercicio 15 */
 
-/*  for (i=0;i<5;i++){
-     for (j=0;j<10;j++) 
-     console.log(  i +  " : " + j) } */
+/* for (i = 0; i < 5; i++) {
+    for (j = 0; j < 10; j++) {
+        console.log(i + " : " + j)
+    }
+}  */
+/* ejercicio 17 */
+
+let letter = prompt ("ingresar");
+let answer = "";
+if (typeof letter === "string") {
+    for (let word = 0; word < letter.length; word++) {
+        if (word % 2 == 0) {
+            answer += letter[word].toLowerCase();
+        }
+        else {
+            answer += letter[word].toUpperCase();
+        }
+    }
+}
+ else {
+    console.log("input invalido");
+} 
+
+console.log(answer);
+
+
+
+/* ejercicio 18 */
+/* let word = prompt("ingresar");
+if (word.length > 8) {
+ console.log(word.slice(0,8));}
+ */
+
